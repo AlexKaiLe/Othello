@@ -1,4 +1,4 @@
-ReadMe <Othello>
+# ReadMe Othello
 
 This is my final project Othello where the player can select different combinations of player 1 and player 2. 
 
@@ -52,6 +52,3 @@ Design Choices;
 	-The referee and the Controls class need know know about eachother. The referee needs to know about the controls 
 	after it has been created, but the controls also need to pass in a referee into the players, which is why the referee
 	is created inside the Controls class.
-
-Known Bugs:
-The minimax is slightly buggy because of the way I set up the check sandwich method
